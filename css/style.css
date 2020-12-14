@@ -1,0 +1,91 @@
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background: var(--color-darkblue);
+    background-image: linear-gradient(
+        115deg,
+        rgba(231, 185, 231, 0.2),
+        rgba(116, 116, 179, 0.5)
+      ),
+      url(../img/Logo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+header{
+  background-color: #000000;
+  color: #ffffff;
+  display: flex;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+}
+
+header h2{
+  float: left;
+  margin: 7px;
+}
+
+.menu{
+  float: right;
+  margin-top: 10px;
+}
+
+.menu a{
+  color: #ffffff;
+  text-decoration: none;
+  padding: 20px;
+}
+
+.menu a:hover{
+  background-color: #333333;
+}
+
+.contenedor{
+  width: 100%;
+  margin: auto;
+}
+
+#formulario{
+  position: relative;
+  top: 50px;
+  width: 50%;
+}
+
+.lead{
+  font-weight: bold;
+}
+
+article{
+  position: relative;
+  bottom: 50px;
+}
+
+/* article p{
+  text-decoration: none;
+  padding: 20px;
+  text-align: center;
+}
+
+article p a{
+  color: #000000;
+  text-size: 10px;
+} */
+
+footer{
+  background-color: #000000;
+  color: #ffffff;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  z-index: 100;
+  width: 100%;
+  text-align: center;
+}
